@@ -66,6 +66,8 @@ footer.container{
     text-align: center;
     color: #fff;
     text-decoration: none;
+    border-radius: 50%;
+    transition: all 1s;
 }
 
 .socials > a:hover {
