@@ -1,7 +1,29 @@
-.progress-bar-group {}
-.progress-bar-group > .progress-bar {}
-.progress-bar-group > .progress-bar > .top {}
-.progress-bar-group > .progress-bar > .top > .tittle {}
-.progress-bar-group > .progress-bar > .top > .label {}
-.progress-bar-group > .progress-bar > .bottom {}
-.progress-bar-group > .progress-bar > .bottom > .progress{}
+.progress-bar-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.progress-bar-group .progress-bar {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.progress-bar-group .top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: #777;
+}
+.progress-bar-group .tittle {}
+.progress-bar-group .label {}
+.progress-bar-group .bottom {
+    --height: 6px;
+    width: 100%;
+    height: var(--height);
+    background-color: #ccc;
+}
+.progress-bar-group .progress{
+    width: 90%;
+    height: var(--height);
+    background-color: #36F;
+}
