@@ -8,6 +8,7 @@
 /*components*/
 @import '../componenst/button.css';
 @import '../componenst/clock.css';
+@import '../componenst/progress-bar.css';
 
 /*CUSTOM CSS*/
 .hero {
