@@ -1,3 +1,8 @@
+:root {
+    --main-color: #03a9f5;
+    --secondary-color: #ea1a63;
+}
+
 body, 
 body * {
     margin: 0;
@@ -9,14 +14,6 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.column-left {
-    width: 50%;
-    float: left;
-
-}
-
-.column-right {
-    width: 40%;
-    float: left;
-    padding-left: 10%;
+.bg-main {
+    background-color: var(--main-color);
 }
