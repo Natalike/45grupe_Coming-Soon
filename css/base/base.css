@@ -1,0 +1,22 @@
+body, 
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.column-left {
+    width: 50%;
+    float: left;
+
+}
+
+.column-right {
+    width: 40%;
+    float: left;
+    padding-left: 10%;
+}
