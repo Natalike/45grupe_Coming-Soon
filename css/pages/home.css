@@ -9,6 +9,7 @@
 
 /*CUSTOM CSS*/
 .hero {
+    min-height: 90vh;
     background-image: url(../../img/bacground\ img.png);
     background-repeat: no-repeat;
     background-position: bottom center;
